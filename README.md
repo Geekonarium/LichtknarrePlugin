@@ -1,4 +1,4 @@
 # LichtknarrePlugin
-A plugin for the software Lichtknarre which is available on https://Geekonarium.de The software let you control you pc with iron sight accuracy with a wiiremote.
+A Plugin for the Software "Lichtknarre" (which is available on https://geekonarium.de). The Software lets you control your PC with iron sight accuracy using a wiiremote.
 
-Mainsoftware is based on https://github.com/BrianPeek/WiimoteLib.
+Main Software is based on https://github.com/BrianPeek/WiimoteLib.
