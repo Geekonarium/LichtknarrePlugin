@@ -6,3 +6,8 @@ Mainsoftware is based on https://github.com/BrianPeek/WiimoteLib.
 This plugin transmits the Lichtknarre software input to the computer mouse.
 
 This Repo is under construction. Please do not use it yet if your not close friend xD.
+
+Install to Lichtknarre app:
+1. compile
+2. rename dll to *.plugin
+3. copy to plugin folder
