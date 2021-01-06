@@ -106,7 +106,7 @@ namespace LichtknarrePlugin
 
             fps = 1 / deltaTime * 1000;
 
-            if (fps > 50) { return; } //fps cuttoff
+            if (konfigurator.inputPerSecond != -1 && fps > konfigurator.inputPerSecond) { return; } //fps cuttoff
 
             time1 = time2;
 

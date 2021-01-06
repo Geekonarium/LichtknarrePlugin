@@ -117,7 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label5.Text" xml:space="preserve">
-    <value>This plugin is beta. Only first player can use it. This is more an home entertainment plugin. You can use the mouse. Up/down/left/right translate to keyboard as up/down/left/right keys. Plus/Minus/home controls sound. More comming soon.</value>
-  </data>
 </root>

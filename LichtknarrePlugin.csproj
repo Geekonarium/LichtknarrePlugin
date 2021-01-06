@@ -47,10 +47,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LichtknarrePlugin.cs" />
-    <Compile Include="PluginCalibration.cs">
+    <Compile Include="config\PluginCalibration.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PluginCalibration.Designer.cs">
+    <Compile Include="config\PluginCalibration.Designer.cs">
       <DependentUpon>PluginCalibration.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -65,7 +65,7 @@
     <Compile Include="Utils\wiiremotelib\HIDImports.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="PluginCalibration.resx">
+    <EmbeddedResource Include="config\PluginCalibration.resx">
       <DependentUpon>PluginCalibration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
