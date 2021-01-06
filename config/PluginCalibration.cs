@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using LichtknarrePlugin.Utils;
 
-namespace LichtknarrePlugin
+namespace LichtpistolePlugin.config
 {
     public partial class PluginCalibration : Form
     {
@@ -26,6 +26,8 @@ namespace LichtknarrePlugin
             label1.Text = "value: " + konfigurator.inputPerSecond;
             button1.Text = button1.Text.Replace("?", konfigurator.intputPerSecondDefaultValue.ToString());
             //</inputspersecond>
+
+            keybindGroup.Controls.Add(new KeyBindControl());
         }
 
         private void checkBox1_CheckStateChanged(object sender, EventArgs e)

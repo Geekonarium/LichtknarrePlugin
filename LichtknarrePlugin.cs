@@ -7,6 +7,7 @@ using System;
 using Newtonsoft.Json;
 using System.Text;
 using System.Runtime.InteropServices;
+using LichtpistolePlugin.config;
 
 namespace LichtknarrePlugin
 {

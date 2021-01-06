@@ -1,4 +1,4 @@
-﻿namespace LichtknarrePlugin
+﻿namespace LichtpistolePlugin.config
 {
     partial class PluginCalibration
     {
@@ -34,6 +34,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.trackBar1 = new System.Windows.Forms.TrackBar();
+            this.keybindGroup = new System.Windows.Forms.GroupBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             this.SuspendLayout();
@@ -100,11 +101,21 @@
             this.trackBar1.TabIndex = 0;
             this.trackBar1.ValueChanged += new System.EventHandler(this.trackBar1_ValueChanged);
             // 
+            // keybindGroup
+            // 
+            this.keybindGroup.Location = new System.Drawing.Point(12, 127);
+            this.keybindGroup.Name = "keybindGroup";
+            this.keybindGroup.Size = new System.Drawing.Size(880, 384);
+            this.keybindGroup.TabIndex = 2;
+            this.keybindGroup.TabStop = false;
+            this.keybindGroup.Text = "Keybind";
+            // 
             // PluginCalibration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(904, 523);
+            this.Controls.Add(this.keybindGroup);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.checkBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
@@ -128,5 +139,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TrackBar trackBar1;
+        private System.Windows.Forms.GroupBox keybindGroup;
     }
 }
