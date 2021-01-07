@@ -37,6 +37,10 @@ namespace LichtknarrePlugin.Utils
 
             inputPerSecondMemory = Int32.Parse(settings.Read("inputPerSecond" + playerIndex.ToString(), "commonSettings"));
             //</inputPerSecond>
+
+            //<wiiKeySettings>
+
+            //</wiiKeySettings>
         }
 
         //<inputPerSecond>
@@ -51,7 +55,6 @@ namespace LichtknarrePlugin.Utils
                     inputPerSecondMemory = value;
 
                     settings.Write("inputPerSecond" + playerIndex.ToString(), value.ToString(), "commonSettings");
-
                 }
             }
             get

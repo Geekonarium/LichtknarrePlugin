@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using LichtknarrePlugin.Utils;
+using WiimoteLib;
 
 namespace LichtpistolePlugin.config
 {
@@ -27,7 +28,22 @@ namespace LichtpistolePlugin.config
             button1.Text = button1.Text.Replace("?", konfigurator.intputPerSecondDefaultValue.ToString());
             //</inputspersecond>
 
-            keybindGroup.Controls.Add(new KeyBindControl());
+
+            WiimoteLib.ButtonState buttonState = new WiimoteLib.ButtonState();
+            foreach (var prop in buttonState.GetType().GetProperties())
+            {
+
+            }
+            
+            keybindPanel.Controls.Add(
+                new KeyBindControl("home")
+            );
+
+            KeyBindControl newControl = new KeyBindControl("1");
+            newControl.Top = 230;
+            keybindPanel.Controls.Add(
+                newControl
+            );
         }
 
         private void checkBox1_CheckStateChanged(object sender, EventArgs e)

@@ -13,9 +13,11 @@ namespace LichtpistolePlugin.config
     public partial class KeyBindControl : UserControl
     {
         PossibleKeyBindActions possibleKeyBindActions = new PossibleKeyBindActions();
-        public KeyBindControl()
+        public KeyBindControl(string title)
         {
             InitializeComponent();
+            
+            label1.Text = title;
 
             foreach (KeyBindAction keyBindAction in possibleKeyBindActions.list) { 
                 listBox1.Items.Add(keyBindAction.title);

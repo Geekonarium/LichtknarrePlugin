@@ -37,7 +37,7 @@ namespace LichtpistolePlugin.config
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(3, 0);
+            this.label1.Location = new System.Drawing.Point(3, 42);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(106, 33);
             this.label1.TabIndex = 0;
@@ -46,7 +46,7 @@ namespace LichtpistolePlugin.config
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(9, 36);
+            this.listBox1.Location = new System.Drawing.Point(115, 11);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(235, 108);
             this.listBox1.TabIndex = 1;
@@ -55,10 +55,11 @@ namespace LichtpistolePlugin.config
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label1);
             this.Name = "KeyBindControl";
-            this.Size = new System.Drawing.Size(786, 150);
+            this.Size = new System.Drawing.Size(786, 131);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -35,8 +35,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.trackBar1 = new System.Windows.Forms.TrackBar();
             this.keybindGroup = new System.Windows.Forms.GroupBox();
+            this.keybindPanel = new System.Windows.Forms.Panel();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
+            this.keybindGroup.SuspendLayout();
             this.SuspendLayout();
             // 
             // checkBox1
@@ -103,12 +105,20 @@
             // 
             // keybindGroup
             // 
+            this.keybindGroup.Controls.Add(this.keybindPanel);
             this.keybindGroup.Location = new System.Drawing.Point(12, 127);
             this.keybindGroup.Name = "keybindGroup";
             this.keybindGroup.Size = new System.Drawing.Size(880, 384);
             this.keybindGroup.TabIndex = 2;
             this.keybindGroup.TabStop = false;
             this.keybindGroup.Text = "Keybind";
+            // 
+            // keybindPanel
+            // 
+            this.keybindPanel.Location = new System.Drawing.Point(9, 19);
+            this.keybindPanel.Name = "keybindPanel";
+            this.keybindPanel.Size = new System.Drawing.Size(865, 359);
+            this.keybindPanel.TabIndex = 0;
             // 
             // PluginCalibration
             // 
@@ -126,6 +136,7 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
+            this.keybindGroup.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -140,5 +151,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TrackBar trackBar1;
         private System.Windows.Forms.GroupBox keybindGroup;
+        private System.Windows.Forms.Panel keybindPanel;
     }
 }
