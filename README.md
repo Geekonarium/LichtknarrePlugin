@@ -1,6 +1,6 @@
 Please lookup: https://geekonarium.de/en/lightgun-lichtknarre-about-the-plugin-system/#doityourself
 
-Currently, there is no development process for Lichtknarre. This code is out of date. Please be patient.
+Currently, there is no development process for Lichtknarre. This code is out of date. Please be patient. In a few months there will be a DIY version of Lichtknarre, which will then be available under a different licence with tutorials etc.
 
 # LichtknarrePlugin
 
