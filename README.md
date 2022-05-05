@@ -1,3 +1,7 @@
+Please lookup: https://geekonarium.de/en/lightgun-lichtknarre-about-the-plugin-system/#doityourself
+
+Currently, there is no development process for Lichtknarre. This code is out of date. Please be patient.
+
 # LichtknarrePlugin
 
 A plugin for the software "Lichtknarre", which is available on https://geekonarium.de/en/lightgun-lichtknarre-for-the-wii-remote-on-your-pc-computer/
