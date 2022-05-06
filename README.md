@@ -2,6 +2,7 @@ Please lookup: https://geekonarium.de/en/lightgun-lichtknarre-about-the-plugin-s
 
 Currently, there is no development process for Lichtknarre. This code is out of date. Please be patient. In a few months there will be a DIY version of Lichtknarre, which will then be available under a different licence with tutorials etc.
 
+out of date:
 # LichtknarrePlugin
 
 A plugin for the software "Lichtknarre", which is available on https://geekonarium.de/en/lightgun-lichtknarre-for-the-wii-remote-on-your-pc-computer/
